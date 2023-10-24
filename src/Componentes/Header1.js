@@ -1,17 +1,10 @@
 import React, { useState } from 'react';
-import {
-  MDBContainer,
-  MDBIcon,
-  MDBCollapse,
-  MDBBtn
-} from 'mdb-react-ui-kit';
 import rectangle from './assets/Rectangle37.png';
 import code2 from './assets/CODE2.png';
 import grupo from './assets/Grupo.png';
 import voteImage from './assets/Rectangle1.png';
 
-export default function App() {
-  const [showBasic, setShowBasic] = useState(false);
+export default function Header1() {
 
   return (
     <header>
@@ -52,7 +45,7 @@ export default function App() {
         <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> alunos integrantes do Projeto CODE, através da construção</h3>
         <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> de aplicativos para dispositivos Android </h3>
         <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> na plataforma MIT App Inventor</h3>
-        <button style={{background: 'transparent', border: 'none'}}>
+        <button href="/vota" style={{background: 'transparent', border: 'none'}}>
           <img src={voteImage} alt="Votação"/>
           <div style={{color: 'blue',fontWeight: 'bold', position: 'absolute', fontSize: '50px', top: '50%', left: '50%', transform: 'translate(-50%, 50%)'}}>Votação</div>
         </button>
