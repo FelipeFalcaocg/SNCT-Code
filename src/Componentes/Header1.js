@@ -26,13 +26,14 @@ export default function Header1() {
 
 
       <div
-        className='main-background'
+        className='main-background bg-image'
         style={{
           backgroundImage: `url(${grupo})`,
           backgroundPosition: 'center 50%',
-          backgroundSize: '120% auto',
+          backgroundSize: '200% auto',
           position: 'relative',
-          height: '500px',
+          height: '80vh',
+          widht: '100%',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -40,12 +41,13 @@ export default function Header1() {
           flexDirection: 'column'
         }}
       >
-        <p className='fs-1 text-wrap '>Festival de Aplicativos da Iniciativa CODE</p>
-        <p className='fs-10 text-wrap'> O evento tem como objetivo promover a criatividade tecnológica dos </p>
-        <p className='fs-10 text-wrap'> alunos integrantes do Projeto CODE, através da construção</p>
-        <p className='fs-10 text-wrap'> de aplicativos para dispositivos Android </p>
-        <p className='fs-10text-wrap'> na plataforma MIT App Inventor</p>
-        <a className='border border-primary p-4 mb-2 rounded-pill' href="vota">Votação</a>
+        
+        <p className='display-3  text-wrap '>Festival de Aplicativos da Iniciativa CODE</p>
+        <p className='display-8  text-wrap'> O evento tem como objetivo promover a criatividade tecnológica dos </p>
+        <p className='display-8  text-wrap'> alunos integrantes do Projeto CODE, através da construção</p>
+        <p className='display-8  text-wrap'> de aplicativos para dispositivos Android </p>
+        <p className='display-8 text-wrap'> na plataforma MIT App Inventor</p>
+        <a className='border border-primary p-4 mb-20 rounded-pill' href="vota">Votação</a>
       </div>
 
     </header>

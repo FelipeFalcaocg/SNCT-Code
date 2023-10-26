@@ -11,7 +11,7 @@ export default function Footer2() {
     <MDBFooter className="footer" style={{ backgroundColor: '#f1f1f1' }}>
       <MDBContainer className='pt-4'>
         <section className='mb-4'>
-        <img src={logo} alt="a"height="50"loading="lazy"/> 
+        <img src={logo} alt="a"loading="lazy"/> 
         </section>
       </MDBContainer>
     </MDBFooter>
