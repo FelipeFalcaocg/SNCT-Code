@@ -6,7 +6,7 @@ import {
 } from 'mdb-react-ui-kit';
 import logo from './assets/CODE.png';
 
-export default function App() {
+export default function Footer2() {
   return (
     <MDBFooter className="footer" style={{ backgroundColor: '#f1f1f1' }}>
       <MDBContainer className='pt-4'>

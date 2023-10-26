@@ -40,15 +40,12 @@ export default function Header1() {
           flexDirection: 'column'
         }}
       >
-        <h1 style={{ marginTop: '-100px', fontSize: '60px' }}>Festival de Aplicativos da Iniciativa CODE</h1>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> O evento tem como objetivo promover a criatividade tecnológica dos </h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> alunos integrantes do Projeto CODE, através da construção</h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> de aplicativos para dispositivos Android </h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> na plataforma MIT App Inventor</h3>
-        <button href="/vota" style={{background: 'transparent', border: 'none'}}>
-          <img src={voteImage} alt="Votação"/>
-          <div style={{color: 'blue',fontWeight: 'bold', position: 'absolute', fontSize: '50px', top: '50%', left: '50%', transform: 'translate(-50%, 50%)'}}>Votação</div>
-        </button>
+        <p className='fs-1 text-wrap '>Festival de Aplicativos da Iniciativa CODE</p>
+        <p className='fs-10 text-wrap'> O evento tem como objetivo promover a criatividade tecnológica dos </p>
+        <p className='fs-10 text-wrap'> alunos integrantes do Projeto CODE, através da construção</p>
+        <p className='fs-10 text-wrap'> de aplicativos para dispositivos Android </p>
+        <p className='fs-10text-wrap'> na plataforma MIT App Inventor</p>
+        <a className='border border-primary p-4 mb-2 rounded-pill' href="vota">Votação</a>
       </div>
 
     </header>
