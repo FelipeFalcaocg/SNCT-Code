@@ -30,9 +30,9 @@ export default function Header1() {
         style={{
           backgroundImage: `url(${grupo})`,
           backgroundPosition: 'center 50%',
-          backgroundSize: '200% auto',
+          backgroundSize: '180% auto',
           position: 'relative',
-          height: '80vh',
+          height: '70vh',
           widht: '100%',
           display: 'flex',
           justifyContent: 'center',
