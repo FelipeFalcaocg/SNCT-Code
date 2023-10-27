@@ -9,7 +9,7 @@ import rectangle from './assets/Rectangle37.png';
 import code2 from './assets/CODE2.png';
 import grupo from './assets/Grupo.png';
 import styles from './Header1.module.css';
-import voteImage from './assets/Rectangle1.png';
+import voteImage from './assets/Votação.png';
 
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);
@@ -40,13 +40,10 @@ export default function App() {
         <h1>Festival de Aplicativos da Iniciativa CODE</h1>  
         <p>O evento tem como objetivo promover a criatividade tecnológica dos alunos integrantes do Projeto CODE, através da construção de aplicativos para dispositivos Android na plataforma MIT App Inventor</p>
 
-        <button className={styles.botao} style={{}}>
-          <img className={styles.imagemnobotao} src={voteImage} alt="Votação" ></img>
-        </button>
+          <button className={styles.botao}>
+            <img className={styles.imagemnobotao} src={voteImage} alt="Votação" />
+          </button>
       </section>
-
-      
-
     </header>
   );
 }
