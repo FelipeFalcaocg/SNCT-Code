@@ -8,9 +8,9 @@ import logo from './assets/CODE.png';
 
 export default function Footer2() {
   return (
-    <MDBFooter className="footer" style={{ backgroundColor: '#f1f1f1' }}>
-      <MDBContainer className='pt-4'>
-        <section className='mb-4'>
+    <MDBFooter className="footer mt-auto" style={{ backgroundColor: '#f1f1f1' }}>
+      <MDBContainer className='d-flex flex-column min-vh-10'>
+        <section className='p-2'>
         <img src={logo} alt="a"loading="lazy"/> 
         </section>
       </MDBContainer>
