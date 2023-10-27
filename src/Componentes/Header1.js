@@ -8,6 +8,7 @@ import {
 import rectangle from './assets/Rectangle37.png';
 import code2 from './assets/CODE2.png';
 import grupo from './assets/Grupo.png';
+import styles from './Header1.module.css';
 import voteImage from './assets/Rectangle1.png';
 
 export default function App() {
@@ -15,7 +16,6 @@ export default function App() {
 
   return (
     <header>
-
       <div
         className='p-5 text-center bg-image'
         style={{ backgroundImage: `url(${rectangle})`, height: '80px' }}
@@ -24,39 +24,28 @@ export default function App() {
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
             <img src={code2} alt="Heading" className='mb-3' style={{ marginTop: '30px', height: '90px'}} />
-              
-          
             </div>
           </div>
         </div>
       </div>
 
+      <section className={styles.header1_container} style={{
+        height: '100vh',
+        backgroundImage: `url(${grupo})`,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '120% 120%',
+      }}>
+        
+        <h1>Festival de Aplicativos da Iniciativa CODE</h1>  
+        <p>O evento tem como objetivo promover a criatividade tecnológica dos alunos integrantes do Projeto CODE, através da construção de aplicativos para dispositivos Android na plataforma MIT App Inventor</p>
 
-      <div
-        className='main-background'
-        style={{
-          backgroundImage: `url(${grupo})`,
-          backgroundPosition: 'center 50%',
-          backgroundSize: '120% auto',
-          position: 'relative',
-          height: '500px',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          color: '#fff',
-          flexDirection: 'column'
-        }}
-      >
-        <h1 style={{ marginTop: '-100px', fontSize: '60px' }}>Festival de Aplicativos da Iniciativa CODE</h1>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> O evento tem como objetivo promover a criatividade tecnológica dos </h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> alunos integrantes do Projeto CODE, através da construção</h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> de aplicativos para dispositivos Android </h3>
-        <h3 style={{ marginTop: '0px', textAlign: 'center', fontSize: '30px' }}> na plataforma MIT App Inventor</h3>
-        <button style={{background: 'transparent', border: 'none'}}>
-          <img src={voteImage} alt="Votação"/>
-          <div style={{color: 'blue',fontWeight: 'bold', position: 'absolute', fontSize: '50px', top: '50%', left: '50%', transform: 'translate(-50%, 50%)'}}>Votação</div>
+        <button className={styles.botao} style={{}}>
+          <img className={styles.imagemnobotao} src={voteImage} alt="Votação" ></img>
         </button>
-      </div>
+      </section>
+
+      
 
     </header>
   );

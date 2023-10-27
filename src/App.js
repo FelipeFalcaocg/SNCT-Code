@@ -4,10 +4,11 @@ import Header1 from './Componentes/Header1';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" >
         <Navbar/>
-        <Footer2/>
         <Header1/>
+        <Footer2/>
+        
         
         </div>
     );

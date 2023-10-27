@@ -13,7 +13,7 @@ export default function Navbar1() {
   return (
     <MDBNavbar expand='lg' light bgColor='white'>
       <MDBContainer fluid>
-       <img src={logo} alt="a"height="40"loading="lazy"/> 
+       <img src={logo} alt="a"height="40"loading="lazy" /> 
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
