@@ -3,9 +3,11 @@ import rectangle from './assets/Rectangle37.png';
 import code2 from './assets/CODE2.png';
 import grupo from './assets/Grupo.png';
 import voteImage from './assets/Rectangle1.png';
+import Modal from './modal.js';
 
 export default function Header1() {
 
+  
   return (
     <header>
 
@@ -48,6 +50,11 @@ export default function Header1() {
         <p className='display-8  text-wrap'> de aplicativos para dispositivos Android </p>
         <p className='display-8 text-wrap'> na plataforma MIT App Inventor</p>
         <a className='border border-primary p-4 mb-20 rounded-pill' href="vota">Votação</a>
+
+        <Modal/>
+        
+
+        
       </div>
 
     </header>
